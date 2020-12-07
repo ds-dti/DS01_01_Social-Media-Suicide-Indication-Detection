@@ -1,31 +1,33 @@
-# import library
+from flask import Flask,render_template,request,url_for
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.svm import SVC
+
+#EDA Packages
+import pandas as pd
 import numpy as np
-from flask import Flask, request, jsonify, render_template
 import pickle
 
-# define name and load model
-app = Flask(__name__)
+#import model
+cv = CountVectorizer()
 model = pickle.load(open('model.pkl', 'rb'))
 
-# main route
-@app.route('/')
-def home():
-    return render_template('index.html')
+app = Flask(__name__)
 
-# predic route
-@app.route('/predict',methods=['POST'])
+@app.route("/")
+def index():
+	return render_template("index.html")
+
+@app.route("/",methods=['POST'])
 def predict():
-    '''
-    For rendering results on HTML GUI
-    '''
-    int_features = [int(x) for x in request.form.values()]
-    final_features = [np.array(int_features)]
-    prediction = model.predict(final_features)
 
-    output = round(prediction[0], 2)
+	# masih salah di predict nya scv error
+	if request.method == 'POST':
+		text = request.form['comment']
+		data = [text]
+		result = model.predict(data)
 
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
+	return  render_template('result.html',prediction = result,comment = comment)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+	app.run(host="127.0.0.1",port=8080,debug=True)
