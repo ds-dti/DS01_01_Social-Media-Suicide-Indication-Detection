@@ -8,6 +8,7 @@ from keras.models import load_model
 import pandas as pd
 import numpy as np
 import pickle
+import tensorflow as tf
 
 #import model
 cv = CountVectorizer()
