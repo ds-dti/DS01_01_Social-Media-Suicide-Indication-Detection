@@ -13,7 +13,7 @@ import tensorflow as tf
 #import model
 cv = CountVectorizer()
 # model = pickle.load(open('model.pkl', 'rb')) #model for svm
-model = load_model('Model.h5')
+model = load_model('Model.h5') #model for neural network
 
 app = Flask(__name__)
 
