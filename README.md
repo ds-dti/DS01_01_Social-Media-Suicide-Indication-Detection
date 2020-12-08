@@ -8,6 +8,11 @@ Dataset yang digunakan
 
 
 ## Penjelasan Pre-Processing
-![preprocessing](https://github.com/abduhsalam/Suicide-Prevention-DTI/blob/main/Gambar/1.PNG)
-Line diatas memanggil dataset dan menampilkan isi dari dataset tersebut. Di bawah ini adalah isi dari tabel.
-![preprocessing](https://github.com/abduhsalam/Suicide-Prevention-DTI/blob/main/Gambar/1.2.PNG)
+```
+import pandas as pd
+
+df1 = pd.read_csv('https://raw.githubusercontent.com/hesamuel/goodbye_world/master/data/data_for_model_2.csv', sep=',')
+df1 = df1.drop(['url', 'num_comments', 'author', 'title', 'selftext', 'selftext_clean', 'title_clean', 'author_clean', 'selftext_length', 'title_length'], axis=1)
+df1 = df1.dropna()
+df1.head()
+```
