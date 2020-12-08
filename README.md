@@ -9,3 +9,5 @@ Dataset yang digunakan
 
 ## Penjelasan Pre-Processing
 ![preprocessing](https://github.com/abduhsalam/Suicide-Prevention-DTI/blob/main/Gambar/1.PNG)
+Line diatas memanggil dataset dan menampilkan isi dari dataset tersebut. Di bawah ini adalah isi dari tabel.
+![preprocessing](https://github.com/abduhsalam/Suicide-Prevention-DTI/blob/main/Gambar/1.2.PNG)
