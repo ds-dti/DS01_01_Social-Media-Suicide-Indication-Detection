@@ -8,16 +8,19 @@ Dataset used:
 
 
 ## Pre-Processing
+At this stage there are several functions that help the process including:
+- Case Folding
+  Converts the entire text in the data into a standard form, which is converts the text to lowercase, remove the link and the word  RT, remove numbers, remove punctuation mark, remove whitespace.
+  
+- Tokenization
+  The stage of truncating the input string based on each word that composes it.
+  
+- Stemming
+  The process of removing suffixes. Reduces the number of variations in the representation of a word.
 
-Pada linecode pre-processing terdapat fungsi-fungsi diantaranya:
-1. Mengubah teksnya menjadi huruf kecil
-2. Menghapus link dan kata RT
-3. Menghapus angka
-4. Menghapus tanda baca
-5. Menghapus spasi
-6. Tokenisasi
-7. Menghapus StopWords
-8. Melakukan Stemming dan Lemmetizer
+- Lemmetizer
+  A process of finding the basic form of a word.
+
 
 ## API
 ```
