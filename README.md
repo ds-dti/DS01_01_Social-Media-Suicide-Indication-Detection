@@ -9,7 +9,12 @@ Dataset used:
 
 ## Pre-Processing
 At this stage there are several functions that help the process including:
-- Case Folding converts the entire text in the data into a standard form, which is converts the text to lowercase, remove the link and the word  RT, remove numbers, remove punctuation mark, remove whitespace.
+- Case Folding converts the entire text in the data into a standard form.
+   - Converts the text to lowercase
+   - Remove the link and the word  RT 
+   - Remove numbers 
+   - Remove punctuation mark
+   - Remove whitespace.
   
 - Tokenization the stage of truncating the input string based on each word that composes it.
   
