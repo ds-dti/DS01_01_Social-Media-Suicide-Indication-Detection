@@ -61,6 +61,6 @@ Werkzeug==1.0.1
 Is a necessary requirement to use the API.
 
 ## Repository Content
-```
-main.py
-```
+- 'main.py' -
+- 'requirement-server.txt' -
+- 'test.py' -
