@@ -43,4 +43,4 @@ for i in my_list:
 ```
 The code above is API testing used in this application.
 
-## How to Use API
+## How to use API
