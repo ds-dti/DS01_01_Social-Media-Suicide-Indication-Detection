@@ -10,6 +10,9 @@ Dataset used:
 - https://raw.githubusercontent.com/hesamuel/goodbye_world/master/data/data_for_model_2.csv
 - https://raw.githubusercontent.com/reetika-goel/Predict-Suicidal-Ideation-Based-on-Tweets/master/PredictSuicidalIdeationBasedonTweets/Train_suicide1.csv
 
+data contain some word like this :
+
+
 
 ## Pre-Processing
 At this stage there are several functions that help the process including:
