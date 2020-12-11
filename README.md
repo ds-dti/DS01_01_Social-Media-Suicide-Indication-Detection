@@ -32,10 +32,10 @@ At this stage there are several functions that help the process including:
 On this project, we used neural network to classified the data.
 ![Model Layer](Image/model_layer.png)
 
-On the neural network layer, we used ReLU (Rectified Linear Unit) function and Dropout Regularization to reduce overfitting.
+On the neural network layer, we used ReLU (Rectified Linear Unit) function, and Dropout Regularization to reduce overfitting.
 
-The acuraccy that we got is 93%
-
+![Accuracy](Image/accuracy.png)
+The acuraccy that we got is 95%
 ## How to use API
 ```
 import requests
