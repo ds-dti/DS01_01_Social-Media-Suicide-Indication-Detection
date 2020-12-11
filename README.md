@@ -34,7 +34,7 @@ On this project, we used neural network to classified the data.
 
 On the neural network layer, we used ReLU (Rectified Linear Unit) function, and Dropout Regularization to reduce overfitting.
 
-![Accuracy](Image/accuracy.png)
+![Accuracy](Image/accuracy.PNG)
 The acuraccy that we got is 95%
 ## How to use API
 ```
