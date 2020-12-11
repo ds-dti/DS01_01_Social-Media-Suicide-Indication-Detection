@@ -29,7 +29,7 @@ At this stage there are several functions that help the process including:
 - Text Vectorization is the process of converting text into numerical representation.
 
 ## Model
-
+![Layer Model] (https://github.com/abduhsalam/Suicide-Prevention-DTI/blob/a6f465cc7de6517e163f7c40d0a3aab2024b8b64/Model%20Layer.png)
 
 ## API
 ```
