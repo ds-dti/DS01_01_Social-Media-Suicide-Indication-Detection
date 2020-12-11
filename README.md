@@ -2,6 +2,10 @@
 
 Is an application that aims to detect a person's twitter post whether they have suicidal tendencies or not. The words from the post will be processed and classified, which will be the percentage label.
 
+Label are used in between :
+- Suicide
+- Normal
+
 Dataset used:
 - https://raw.githubusercontent.com/hesamuel/goodbye_world/master/data/data_for_model_2.csv
 - https://raw.githubusercontent.com/reetika-goel/Predict-Suicidal-Ideation-Based-on-Tweets/master/PredictSuicidalIdeationBasedonTweets/Train_suicide1.csv
