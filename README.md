@@ -22,6 +22,8 @@ At this stage there are several functions that help the process including:
 
 - Lemmetizer a process of finding the basic form of a word.
 
+## Model
+
 
 ## API
 ```
@@ -38,3 +40,5 @@ for i in my_list:
     print(response.json())
 ```
 The code above is API testing used in this application.
+
+## How to Use API
