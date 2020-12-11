@@ -29,7 +29,7 @@ At this stage there are several functions that help the process including:
 - Text Vectorization is the process of converting text into numerical representation.
 
 ## Model
-![GitHub Logo](/Model Layer.png)
+![Model Layer](image/layer.png)
 
 ## API
 ```
