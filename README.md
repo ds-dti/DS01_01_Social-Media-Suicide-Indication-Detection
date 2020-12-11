@@ -31,7 +31,7 @@ At this stage there are several functions that help the process including:
 ## Model
 ![Model Layer](Image/model_layer.png)
 
-## API
+## How to use API
 ```
 import requests
 import json
@@ -47,4 +47,4 @@ for i in my_list:
 ```
 The code above is API testing used in this application.
 
-## How to use API
+## API Explanation
