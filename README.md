@@ -11,8 +11,7 @@ Dataset used:
 - https://raw.githubusercontent.com/reetika-goel/Predict-Suicidal-Ideation-Based-on-Tweets/master/PredictSuicidalIdeationBasedonTweets/Train_suicide1.csv
 
 data contain some word like this :
-
-
+![Model Layer](Image/sucide_wordcloud.png)
 
 ## Pre-Processing
 At this stage there are several functions that help the process including:
