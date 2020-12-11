@@ -40,6 +40,7 @@ The accuracy we get after being classified is 95%
 ## API Explanation
 
 ## How to use API
+Make file api.py, write this code, and run it !
 ```
 import requests
 import json
@@ -52,6 +53,13 @@ my_list = [['understand people reply immediately op invitation talk privately me
 for i in my_list:
     response = requests.post(Base + "Posts", {"tweet": i})
     print(response.json())
+```
+
+The Result will be json file like this :
+```
+{
+'probability': 0.6786270141601562
+}
 ```
 The code above is API testing used in this application.
 
