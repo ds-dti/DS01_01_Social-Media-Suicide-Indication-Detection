@@ -34,8 +34,6 @@ On this project, we used neural network to classified the data.
 
 On the neural network layer, we used ReLU (Rectified Linear Unit) function, and Dropout Regularization to reduce overfitting.
 
-![Accuracy](Image/accuracy.PNG)
-The accuracy we get after being classified is 95%
 
 ## API Explanation
 The Suicide Prevention API provides access to Neural Network that can predict suicidial from text. this api build from flask framework and deploy on heroku
