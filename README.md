@@ -56,7 +56,7 @@ POST   https://suicideprevention.herokuapp.com/Posts
 | --- | --- | --- | 
 | `probability` | float | 0.756584 |
 
-The result will be a number (float), if the number is getting closer to number 1, it means indicates suicide. if closer to 0 that means normal
+The result will be a number (float), if the number is getting closer to number **1**, it means indicates **suicide**. if closer to **0** that means **normal**
 
 ## How to use API
 Make file api.py, write this code, and run it !
