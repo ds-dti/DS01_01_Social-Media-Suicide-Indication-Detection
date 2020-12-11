@@ -29,10 +29,10 @@ At this stage there are several functions that help the process including:
 - Text Vectorization is the process of converting text into numerical representation.
 
 ## Model
-On this project, we used the RNN algorithm to classified the data.
+On this project, we used neural network to classified the data.
 ![Model Layer](Image/model_layer.png)
 
-
+On the neural network layer, we used ReLU (Rectified Linear Unit) function and Dropout Regularization to reduce overfitting.
 
 The acuraccy that we got is 93%
 
