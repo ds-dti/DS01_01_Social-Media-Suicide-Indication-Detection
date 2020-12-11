@@ -10,7 +10,7 @@ Dataset used:
 - https://raw.githubusercontent.com/hesamuel/goodbye_world/master/data/data_for_model_2.csv
 - https://raw.githubusercontent.com/reetika-goel/Predict-Suicidal-Ideation-Based-on-Tweets/master/PredictSuicidalIdeationBasedonTweets/Train_suicide1.csv
 
-data contain some word like this :
+Data contain some word like this :
 ![Model Layer](Image/sucide_wordcloud.png)
 
 ## Pre-Processing
@@ -60,7 +60,7 @@ Deployment : `https://suicideprevention.herokuapp.com/`
 | --- | --- | --- | 
 | `probability` | float | 0.756584 |
 
-The result will be a number (float), if the number is getting closer to number **1**, it means indicates **suicide**. if closer to **0** that means **normal**
+The result will be a number (float), if the number is getting closer to number **1**, it means indicates **suicide**. if closer to **0** that means **normal**. threshold value is up to the user
 
 ## How to use API
 Make file api.py, write this code, and run it !
