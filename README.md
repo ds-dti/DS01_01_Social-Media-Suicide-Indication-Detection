@@ -49,7 +49,7 @@ POST   https://suicideprevention.herokuapp.com/Posts
 ### Request Parameter
 | Parameter | Type | Description | Required | Example |
 | --- | --- | --- | --- | --- |
-| `tweet` | string | text that will be predicted | yes | some time i feel comfortable
+| `tweet` | string | text that will be predicted | yes | sometime i feel comfortable
 
 ### Result parameter
 | Parameter | value | Example | 
