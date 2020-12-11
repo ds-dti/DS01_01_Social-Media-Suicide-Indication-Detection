@@ -38,6 +38,18 @@ On the neural network layer, we used ReLU (Rectified Linear Unit) function, and 
 The accuracy we get after being classified is 95%
 
 ## API Explanation
+The Suicide Prevention API provides access to Neural Network that can predict suicidial from text. this api build from flask framework and deploy on heroku
+by using POST and /Posts method to communicate with api.
+
+API End point
+```
+POST   https://suicideprevention.herokuapp.com/Posts
+```
+
+Parameter
+```
+tweet string text to be predicted it's meaning suicide or normal
+```
 
 ## How to use API
 Make file api.py, write this code, and run it !
