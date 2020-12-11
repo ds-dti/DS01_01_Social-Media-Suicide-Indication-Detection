@@ -29,7 +29,7 @@ At this stage there are several functions that help the process including:
 - Text Vectorization is the process of converting text into numerical representation.
 
 ## Model
-![Model Layer](Image/Layer.png)
+![Model Layer](Image/Model Layer.png)
 
 ## API
 ```
