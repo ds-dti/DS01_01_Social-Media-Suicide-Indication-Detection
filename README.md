@@ -47,9 +47,9 @@ POST   https://suicideprevention.herokuapp.com/Posts
 ```
 
 ### Parameter
-```
-tweet 
-```
+| Command | type | Description |
+| --- | --- | --- |
+| `tweet` | string | text that will be predicted |
 
 ## How to use API
 Make file api.py, write this code, and run it !
