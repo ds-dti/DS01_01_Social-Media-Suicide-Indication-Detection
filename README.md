@@ -22,6 +22,8 @@ At this stage there are several functions that help the process including:
 
 - Lemmetizer a process of finding the basic form of a word.
 
+- Text Vectorization is the process of converting text into numerical representation.
+
 ## Model
 
 
