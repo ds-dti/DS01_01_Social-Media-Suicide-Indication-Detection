@@ -46,10 +46,15 @@ by using POST and /Posts method to communicate with api.
 POST   https://suicideprevention.herokuapp.com/Posts
 ```
 
-### Parameter
-| Command | type | Description |
-| --- | --- | --- |
-| `tweet` | string | text that will be predicted |
+### Request Parameter
+| Parameter | Type | Description | Required | Example |
+| --- | --- | --- | --- | --- |
+| `tweet` | string | text that will be predicted | yes | some time i feel comfortable
+
+### Result parameter
+| Parameter | value | Example | 
+| --- | --- | --- | 
+| `probability` | float | 0.756584 |
 
 ## How to use API
 Make file api.py, write this code, and run it !
@@ -67,7 +72,7 @@ for i in my_list:
     print(response.json())
 ```
 
-The Result will be json file like this :
+The result will be json file like this :
 ```
 {
 'probability': 0.6786270141601562
