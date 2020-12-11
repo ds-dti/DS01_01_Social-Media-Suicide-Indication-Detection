@@ -41,20 +41,22 @@ The accuracy we get after being classified is 95%
 The Suicide Prevention API provides access to Neural Network that can predict suicidial from text. this api build from flask framework and deploy on heroku
 by using POST and /Posts method to communicate with api.
 
-### API End point
+**API End point**
 ```
 POST   https://suicideprevention.herokuapp.com/Posts
 ```
 
-### Request Parameter
+**Request Parameter**
 | Parameter | Type | Description | Required | Example |
 | --- | --- | --- | --- | --- |
 | `tweet` | string | text that will be predicted | yes | sometime i feel comfortable
 
-### Result parameter
+**Result parameter**
 | Parameter | value | Example | 
 | --- | --- | --- | 
 | `probability` | float | 0.756584 |
+
+The result will be a number (float), if the number is getting closer to number 1, it means indicates suicide. if closer to 0 that means normal
 
 ## How to use API
 Make file api.py, write this code, and run it !
