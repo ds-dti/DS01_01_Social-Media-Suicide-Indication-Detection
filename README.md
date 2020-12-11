@@ -38,31 +38,3 @@ for i in my_list:
     print(response.json())
 ```
 The code above is API testing used in this application.
-
-## Requirement API
-```
-nltk
-tensorflow
-keras
-autokeras
-flask
-flask_restful
-requests
-gunicorn==19.9.0
-aniso8601==8.0.0
-click==7.1.2
-itsdangerous==1.1.0
-Jinja2==2.11.2
-MarkupSafe==1.1.1
-pytz==2020.1
-six==1.15.0
-Werkzeug==1.0.1
-```
-Is a necessary requirement to use the API.
-
-## Repository Content
-- `Dataset` -
-- `Model` -
-- `main.py` -
-- `requirement-server.txt` -
-- `test.py` -
