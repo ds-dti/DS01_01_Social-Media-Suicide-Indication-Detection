@@ -1,8 +1,8 @@
 # Suicide-Prevention-DTI
-Abduh Salam
-Dimas Samodra
-Hanizar Rachman
-Fahmi Fathur Rahman
+Abduh Salam,
+Dimas Samodra,
+Hanizar Rachman,
+Fahmi Fathur Rahman.
 
 Is an application that aims to detect a person's twitter post whether they have suicidal tendencies or not. The words from the post will be processed and classified, which will be the percentage label.
 
