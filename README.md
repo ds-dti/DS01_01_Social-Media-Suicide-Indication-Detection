@@ -1,4 +1,4 @@
-# Suicide-Prevention-DTI
+# Social-Media-Suicide-Detection
 Abduh Salam,
 Dimas Samodra,
 Hanizar Rachman,
