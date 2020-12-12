@@ -1,5 +1,6 @@
 # Social-Media-Suicide-Detection
 Abduh Salam,
+Moch Rosidi,
 Dimas Samodra,
 Hanizar Rachman,
 Fahmi Fathur Rahman.
