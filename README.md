@@ -1,4 +1,6 @@
-# Social-Media-Suicide-Detection
+![Poster](Poster/poster.png)
+
+# Social-Media-Indication-Suicide-Detection
 Abduh Salam,
 Moch Rosidi,
 Dimas Samodra,
