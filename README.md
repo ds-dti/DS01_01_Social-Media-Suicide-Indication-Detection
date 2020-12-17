@@ -1,4 +1,4 @@
-![Poster](Poster/poster.png)
+![Poster](Asset/Poster/poster.png)
 
 Link Video : https://youtu.be/G8jfN1pHmAs
 
@@ -20,7 +20,7 @@ Dataset used:
 - https://raw.githubusercontent.com/reetika-goel/Predict-Suicidal-Ideation-Based-on-Tweets/master/PredictSuicidalIdeationBasedonTweets/Train_suicide1.csv
 
 Data contain some word like this :
-![Model Layer](Image/sucide_wordcloud.png)
+![Model Layer](Asset/Image/sucide_wordcloud.png)
 
 ## Pre-Processing
 At this stage there are several functions that help the process including:
@@ -41,7 +41,7 @@ At this stage there are several functions that help the process including:
 
 ## Model
 On this project, we used neural network to classified the data.
-![Model Layer](Image/model_layer.png)
+![Model Layer](Asset/Image/model_layer.png)
 
 On the neural network layer, we used ReLU (Rectified Linear Unit) function, and Dropout Regularization to reduce overfitting.
 
