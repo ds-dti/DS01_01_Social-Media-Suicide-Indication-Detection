@@ -1,6 +1,6 @@
 ![Poster](Asset/Poster/poster.png)
 
-Link Video : https://youtu.be/G8jfN1pHmAs
+Explanation in Video : https://youtu.be/G8jfN1pHmAs
 
 # Social-Media-Indication-Suicide-Detection
 Abduh Salam,
